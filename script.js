@@ -38,16 +38,16 @@ style.innerHTML = `
   /* BACKGROUND LOGO - FIXED VISIBILITY */
   .bg-watermark {
     position: absolute;
-    top: 50%;
+    top: 13%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 320px;
+    width: 80px;
     opacity: 0.15; 
     z-index: 1;
     pointer-events: none;
   }
 
-  #race { width: 100%; height: 100%; max-width: 56.25vh; position: relative; z-index: 2; }
+  #race { width: 100%; height: 90%; max-width: 56.25vh; position: relative; z-index: 2; }
   
   .primary-btn { padding: 16px; background: linear-gradient(135deg, #007aff, #0051af); border: none; border-radius: 12px; color: #fff; font-weight: 800; cursor: pointer; width: 100%; text-transform: uppercase; }
   .secondary-btn { padding: 8px 12px; background: #2c2c2e; border: 1px solid #444; border-radius: 6px; color: #bbb; font-size: 11px; cursor: pointer; }
