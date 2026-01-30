@@ -62,7 +62,7 @@ document.head.appendChild(style);
  */
 document.body.innerHTML = `
   <div id="setup-ui">
-    <div class="header"><h1>RgRank Reel Studio Pro</h1></div>
+    <div class="header"><h1>RgRank Reel Studio</h1></div>
     
     <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 10px;">
       <div class="input-group">
